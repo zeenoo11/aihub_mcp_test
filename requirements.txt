@@ -1,0 +1,16 @@
+# AI-Hub API 클라이언트 - 필요한 패키지들
+
+# HTTP 요청
+requests>=2.25.0
+
+# 환경변수 관리
+python-dotenv>=0.19.0
+
+# JSON 처리 및 타입 힌트
+typing-extensions>=4.0.0
+
+# 파일 다운로드 및 압축 해제
+tqdm>=4.62.0
+
+# 로깅
+structlog>=21.1.0 

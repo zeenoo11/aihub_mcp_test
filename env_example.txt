@@ -1,0 +1,7 @@
+# AI-Hub API 설정
+AIHUB_API_KEY=your_api_key_here
+
+# 선택적 설정
+AIHUB_API_BASE_URL=https://api.aihub.or.kr
+AIHUB_DOWNLOAD_TIMEOUT=300
+AIHUB_DEFAULT_DOWNLOAD_PATH=./downloads 
