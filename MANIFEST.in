@@ -1,0 +1,31 @@
+# 필수 파일들
+include README.md
+include LICENSE
+include requirements.txt
+include env_example.txt
+include pyproject.toml
+include setup.py
+
+# 실행 스크립트들
+include run_aihub_query.bat
+include aihubshell
+
+# 소스 코드
+include *.py
+
+# 제외할 파일들
+exclude .env
+exclude .env.*
+exclude *.log
+exclude *.tar
+exclude *.zip
+
+# 디렉토리 제외
+prune downloads/
+prune __pycache__/
+prune .git/
+prune .pytest_cache/
+prune .mypy_cache/
+prune build/
+prune dist/
+prune *.egg-info/ 
